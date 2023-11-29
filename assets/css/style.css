@@ -12,6 +12,9 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: #1c2321;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2, h3 {
@@ -26,14 +29,13 @@ a {
 
 /* Header */
 header {
-    background-color: #eef1ef;
-    padding: 1rem 1rem;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+    background-color: #ffffff;
+        padding: 1rem 1rem;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 }
 
 #start {
@@ -42,13 +44,13 @@ header {
 
 /* Navigation bar */
 nav {
-    background-color: #eef1ef;
-    display: none;
     position: absolute;
-    padding: 1rem 2rem;
-    top: 100%;
-    width: 100%;
-    left: 0;
+        background-color: #ffffff;
+        width: 100%;
+        left: 0;
+        padding: 1rem 1rem;
+        display: none;
+        top: 100%;
 }
 
 #menu-bar:checked~nav {
@@ -72,6 +74,15 @@ nav {
 }
 
 /* Main content */
+.main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 120px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+
 
 /* Footer */
 #social-network {
