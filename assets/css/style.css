@@ -27,6 +27,13 @@ a {
 /* Header */
 header {
     background-color: #eef1ef;
+    padding: 1rem 1rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 #start {
@@ -37,6 +44,11 @@ header {
 nav {
     background-color: #eef1ef;
     display: none;
+    position: absolute;
+    padding: 1rem 2rem;
+    top: 100%;
+    width: 100%;
+    left: 0;
 }
 
 #menu-bar:checked~nav {
@@ -52,11 +64,11 @@ nav {
 }
 
 .active {
-    
+    font-weight: bold;
 }
 
 #nav-bar {
-
+    list-style-type: none;
 }
 
 /* Main content */
