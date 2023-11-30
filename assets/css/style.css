@@ -11,7 +11,7 @@
 /* General styles */
 body {
     font-family: 'Poppins', sans-serif;
-    color: #1c2321;
+    color: #04050a;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@ body {
 
 h1, h2, h3 {
     font-family: 'Raleway', sans-serif;
-    color: #1c2321;
+    color: #04050a;
 }
 
 a {
@@ -29,13 +29,14 @@ a {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #648c94;
         padding: 1rem 1rem;
         position: fixed;
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        border-bottom: solid 1px #04050a;
 }
 
 #start {
@@ -45,12 +46,13 @@ header {
 /* Navigation bar */
 nav {
     position: absolute;
-        background-color: #ffffff;
+        background-color: #648c94;
         width: 100%;
         left: 0;
         padding: 1rem 1rem;
         display: none;
         top: 100%;
+        border-bottom: solid 1px #04050a;
 }
 
 #menu-bar:checked~nav {
@@ -78,11 +80,11 @@ nav {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 120px;
+    margin-top: 106px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
-
+}
 
 /* Footer */
 #social-network {
@@ -91,4 +93,34 @@ nav {
 
 #contact {
 
+}
+
+/* Media query */
+
+/* Tablets and larger (768px and larger) */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+        border-bottom: none;
+        }
+
+    #nav-bar {
+        display: flex;
+    }
+
+    #nav-bar > li {
+        padding-left: 1rem;
+        font-size: 110%;
+    }
+
+    .menu-bar-label {
+        display: none;
+    }
+
+    #nav-bar a:hover {
+    border-bottom: 1px solid #04050a;
+    }
 }
