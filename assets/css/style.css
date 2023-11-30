@@ -98,18 +98,49 @@ main {
 }
 
 /* Info text */
-#info-one {
-
+#info h2 {
+    margin: 10px auto 20px auto;
 }
 
-#info-two {
-
+#info h3 {
+    padding-bottom: 5px;
 }
 
-#info-three {
-    
+#info {
+    width: 85%;
+    margin: 12px auto;
 }
 
+#info-one, #info-two, #info-three {
+    margin-bottom: 15px;
+}
+
+/* Container for responsive video player */
+.video {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Responsive youtube code adapted from article on 
+avexdesigns.com/blog/responsive-youtube-embed */
+.youtube-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.youtube-container iframe,
+.youtube-container object,
+.youtube-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /* Footer */
 #social-network {
