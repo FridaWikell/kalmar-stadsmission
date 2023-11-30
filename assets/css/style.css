@@ -118,7 +118,7 @@ main {
 /* Container for responsive video player */
 .video {
     width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 /* Responsive youtube code adapted from article on 
