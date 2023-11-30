@@ -98,8 +98,8 @@ main {
 }
 
 /* Info text */
-#info h2 {
-    margin: 10px auto 20px auto;
+main h2 {
+    margin: 30px auto 20px auto;
 }
 
 #info h3 {
@@ -111,7 +111,7 @@ main {
     margin: 12px auto;
 }
 
-#info-one, #info-two, #info-three {
+#info div {
     margin-bottom: 15px;
 }
 
@@ -188,5 +188,17 @@ avexdesigns.com/blog/responsive-youtube-embed */
 
     main {
         margin-top: 91px;
+    }
+
+    #info {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    #info div {
+    text-align: flex-start;
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding-right: 10px;
     }
 }
