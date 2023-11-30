@@ -143,12 +143,27 @@ avexdesigns.com/blog/responsive-youtube-embed */
 }
 
 /* Footer */
-#social-network {
+
+footer {
+    background-color: #648c94;
+    border-top: #04050a 1px solid;
+    height: 50px;
+    padding-top: 7px;
+}
+
+/* Om tid fnnes. Göra så ikonerna fortsätter bvara ihop på större laptops? */
+#social-list {
+
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
 
 }
 
-#contact {
-
+#social-list li {
+    font-size: 150%;
 }
 
 /* Media query */
