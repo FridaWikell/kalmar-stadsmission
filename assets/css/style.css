@@ -86,6 +86,17 @@ nav {
     flex-direction: column;
 }
 
+/* Index page */
+
+/* Hero image */
+#holding-hands {
+    width: 100%;
+    height: 400px;
+    background: url("../images/holding-hands.jpg") no-repeat center center / cover;
+    position: relative;
+}
+
+
 /* Footer */
 #social-network {
 
