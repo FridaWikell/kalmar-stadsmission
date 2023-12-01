@@ -144,27 +144,63 @@ avexdesigns.com/blog/responsive-youtube-embed */
 
 /* Get involved */
 #interview {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+#interview-image {
+    background: url('../images/anna-face.jpg') no-repeat top center / cover;
+    height: 70vw;
+    width: 70vw;
+    border-radius: 20%;
+    margin-bottom: 15px;
+}
+
+#interview-text h3 {
+    text-align: end;
+}
+
+#interview i {
+    color: #04050a;
+    font-size: 70%;
 }
 
 #sign-up {
-
+    margin: 20px 20px;
 }
 
 #volunteer-form {
-    
+    margin-top: 15px;
 }
 
-.field-option {
-
+.sign-up-form {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 8px;
+    border-radius: 5px;
 }
 
-.send.button {
-
+.sign-up-form:focus {
+    background-color: #e4e5eb;
 }
 
-.reset-button {
-    
+.field-option p {
+    margin: 5px 0 2px 0;
+}
+
+.send-button, .reset-button {
+    background-color: #ceebf1;
+    margin: 12px 4px 0 0;
+    padding: 8px 15px; 
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.send-button {
+    font-weight: bold;
 }
 
 /* Footer */
