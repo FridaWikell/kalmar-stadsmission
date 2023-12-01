@@ -157,6 +157,8 @@ avexdesigns.com/blog/responsive-youtube-embed */
     width: 70vw;
     border-radius: 20%;
     margin-bottom: 15px;
+    max-height: 400px;
+    max-width: 400px;
 }
 
 #interview-text h3 {
@@ -170,6 +172,7 @@ avexdesigns.com/blog/responsive-youtube-embed */
 
 #sign-up {
     margin: 20px 20px;
+    align-self: center;
 }
 
 #volunteer-form {
@@ -259,7 +262,7 @@ footer {
     }
 
     #nav-bar a:hover {
-    border-bottom: 1px solid #04050a;
+        border-bottom: 1px solid #04050a;
     }
 
     main {
@@ -267,14 +270,41 @@ footer {
     }
 
     #info {
-    display: flex;
-    flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     #info div {
-    text-align: flex-start;
-    flex-basis: 300px;
-    flex-grow: 1;
-    padding-right: 10px;
+        text-align: flex-start;
+        flex-basis: 300px;
+        flex-grow: 1;
+        padding-right: 10px;
+    }
+
+    #interview {
+        flex-direction: row;
+    }
+
+    #interview-image {
+        width: 50%;
+        align-self: flex-end;
+        margin-right: 10px;
+    }
+
+    #interview-text {
+        width: 40%;
+        align-self: center;
+        margin-left: 10px;
+    }
+
+    #sign-up {
+        width: 70%;
+    }
+}
+
+/* Larger screens (1440px and larger) */
+@media screen and (min-width: 1440px) {
+    #sign-up {
+        width: 40%;
     }
 }
