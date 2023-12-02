@@ -295,6 +295,8 @@ avexdesigns.com/blog/responsive-youtube-embed */
 #lost {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 #lost-image {
@@ -303,6 +305,12 @@ avexdesigns.com/blog/responsive-youtube-embed */
     height: 107vw;
     max-width: 400px;
     max-height: 533px;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+
+#lost div, #lost a {
+    width: 85%;
 }
 
 /* Footer */
