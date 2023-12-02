@@ -250,6 +250,10 @@ avexdesigns.com/blog/responsive-youtube-embed */
     margin: 5px 0 2px 0;
 }
 
+.small-text {
+    font-size: 80%;
+}
+
 .send-button, .reset-button, .home-button {
     background-color: #ceebf1;
     margin: 12px 4px 0 0;
