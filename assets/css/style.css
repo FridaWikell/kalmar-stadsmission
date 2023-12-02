@@ -287,16 +287,20 @@ avexdesigns.com/blog/responsive-youtube-embed */
     text-align: center;
 }
 
-.home-button {
-    margin-bottom: 20px;
-}
-
 /* 404 page */
 #lost {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+}
+
+#lost div {
+        display: flex;
+            flex-direction: column;
+            width: 85%;
+            align-items: center;
+            margin: 5px 0 30px 0;
 }
 
 #lost-image {
@@ -309,10 +313,6 @@ avexdesigns.com/blog/responsive-youtube-embed */
     margin-top: 20px;
 }
 
-#lost div, #lost a {
-    width: 85%;
-}
-
 /* Footer */
 
 footer {
@@ -320,6 +320,7 @@ footer {
     border-top: #04050a 1px solid;
     height: 50px;
     padding-top: 7px;
+    margin-top: 20px;
 }
 
 /* Om tid fnnes. Göra så ikonerna fortsätter bvara ihop på större laptops? */
@@ -429,6 +430,7 @@ footer {
     #sign-up {
         width: 70%;
     }
+
 }
 
 /* Larger screens (1440px and larger) */
