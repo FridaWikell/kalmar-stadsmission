@@ -284,6 +284,15 @@ footer {
     font-size: 150%;
 }
 
+/* Respons page */
+#email-image {
+    background: url('../images/email.webp') no-repeat center center / cover;
+    height: 70vw;
+    width: 77vw;
+    max-height: 350px;
+    max-width: 386px;
+}
+
 /* Media query */
 
 @media screen and (min-width: 425px) {
