@@ -250,7 +250,7 @@ avexdesigns.com/blog/responsive-youtube-embed */
     margin: 5px 0 2px 0;
 }
 
-.send-button, .reset-button {
+.send-button, .reset-button, .home-button {
     background-color: #ceebf1;
     margin: 12px 4px 0 0;
     padding: 8px 15px; 
@@ -258,8 +258,33 @@ avexdesigns.com/blog/responsive-youtube-embed */
     font-family: inherit;
 }
 
-.send-button {
+.send-button, .home-button {
     font-weight: bold;
+}
+
+/* Respons page */
+#thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#thank-you div {
+    width: 85%;
+    margin-bottom: 15px;
+}
+
+#email-image {
+    background: url('../images/email.webp') no-repeat center center / cover;
+    height: 77vw;
+    width: 77vw;
+    max-height: 350px;
+    max-width: 386px;
+}
+
+.home-button {
+    margin-bottom: 20px;
 }
 
 /* Footer */
@@ -282,27 +307,6 @@ footer {
 
 #social-list li {
     font-size: 150%;
-}
-
-/* Respons page */
-#thank-you {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-#thank-you div {
-    width: 85%;
-    margin-bottom: 15px;
-}
-
-#email-image {
-    background: url('../images/email.webp') no-repeat center center / cover;
-    height: 77vw;
-    width: 77vw;
-    max-height: 350px;
-    max-width: 386px;
 }
 
 /* Media query */
@@ -408,6 +412,10 @@ footer {
     }
 
     #second-hand, #handtaget, #ateljen, #how-to-help {
+        width: 60%;
+    }
+
+    #thank-you div {
         width: 60%;
     }
 }
