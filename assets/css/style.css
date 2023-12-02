@@ -283,8 +283,26 @@ avexdesigns.com/blog/responsive-youtube-embed */
     max-width: 386px;
 }
 
+#thank-you-text h2 {
+    text-align: center;
+}
+
 .home-button {
     margin-bottom: 20px;
+}
+
+/* 404 page */
+#lost {
+    display: flex;
+    flex-direction: column;
+}
+
+#lost-image {
+    background: url('../images/navigate.jpg') center center / cover;
+    width: 80vw;
+    height: 107vw;
+    max-width: 400px;
+    max-height: 533px;
 }
 
 /* Footer */
