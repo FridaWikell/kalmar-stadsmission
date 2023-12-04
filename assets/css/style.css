@@ -86,7 +86,7 @@ main {
 #holding-hands {
     width: 100%;
     height: 400px;
-    background: url("../images/holding-hands.jpg") no-repeat center center/cover;
+    background: url("../images/holding-hands.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -172,15 +172,15 @@ avexdesigns.com/blog/responsive-youtube-embed */
 }
 
 #second-hand-image {
-    background: url('../images/second-hand.jpg') no-repeat center center / cover;
+    background: url('../images/second-hand.webp') no-repeat center center / cover;
 }
 
 #ateljen-image {
-    background: url('../images/ateljen.jpg') no-repeat center center / cover;
+    background: url('../images/ateljen.webp') no-repeat center center / cover;
 }
 
 #handtaget-image {
-    background: url('../images/handtaget.jpg') no-repeat center center / cover;
+    background: url('../images/handtaget.webp') no-repeat center center / cover;
 }
 
 #second-hand-image, #ateljen-image, #handtaget-image {
@@ -201,7 +201,7 @@ avexdesigns.com/blog/responsive-youtube-embed */
 }
 
 #interview-image {
-    background: url('../images/anna-face.jpg') no-repeat top center / cover;
+    background: url('../images/anna-face.webp') no-repeat top center / cover;
     height: 70vw;
     width: 70vw;
     border-radius: 20%;
@@ -261,7 +261,6 @@ avexdesigns.com/blog/responsive-youtube-embed */
 }
 
 
-
 /* Respons page */
 #thank-you {
     display: flex;
@@ -304,7 +303,7 @@ avexdesigns.com/blog/responsive-youtube-embed */
 }
 
 #lost-image {
-    background: url('../images/navigate.jpg') center center / cover;
+    background: url('../images/navigate.webp') center center / cover;
     width: 80vw;
     height: 107vw;
     max-width: 300px;

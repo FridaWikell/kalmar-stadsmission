@@ -21,7 +21,7 @@ The goal for the user is to learn more about the different areas where you can h
 It's to get more applications for people who wants to be volunteers.
 
 ## Design
-The design is simple and made to help the user to focus at the text. 
+The design is simple and made to help the user to focus at the text.
 
 ### Colour Scheme
 The headers color was choosed to pop out next to a white background at a body. It was generated through coolors.co where the headers color and the fonts color was at the same color palette.
@@ -34,7 +34,6 @@ The images was choosed to visualise the text. One requirement was that they shou
 
 ### Wireframes
 The wireframes was made in Balsamiq.
-
 
 ## Features
 
@@ -88,7 +87,10 @@ A feature of time booking when you want to have your volunteer introduction visi
 
 ### Validation of Code
 
-Insert screenshots of HTML, CSS and any other code files being tested in the relevant code validator - CSS validator might not validate newer CSS syntax - be careful to read and fully understand why it is giving you an error.
+All HTML pages are validated without errors in the W3 Markup Validation Service (<https://validator.w3.org/>)
+The CSS page are validated without errors in the W3 CSS Validation Service (<https://jigsaw.w3.org/css-validator/>). One warning appeared; "Imported style sheets are not checked in direct input and file upload modes" which can be ignored since it dowsn't affect the written CSS code.
+
+INSERT SCREENSHOTS!!!
 
 ### Lighthouse
 
