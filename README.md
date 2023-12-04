@@ -82,6 +82,7 @@ A easy understandable form where you put your contact information to become a vo
 ## Features to be Added
 
 A feature of time booking when you want to have your volunteer introduction visit (or just a regular visit) will increase the users value.
+To increase the performance of the website in mobile devices, the video at the index page should be optimized and not fully loaded when you visit the site without pressing start.
 
 ## Testing
 
@@ -94,8 +95,15 @@ INSERT SCREENSHOTS!!!
 
 ### Lighthouse
 
-You can perform a test of your website for performance, accessibility, best practices and SEO through the google chrome lighthouse test - it is in your Dev tools. Bear in mind that your internet connection speed plays a part in the performance figures obtained. Where it scores low, it will give you suggestions on how to improve the site - read the suggestions and think about how to implement them - it could be a good idea.
-Do this for both Desktop and Mobile.
+The website is tested in Lighthouse, both for mobile and desktop.
+
+#### Mobile
+
+For mobile devices, the performance is 94. The low score is mainly due to the video at the first page. For the moment, the developer doesn't have the skill to fix it due to lack of knowledge in JavaScript.
+
+#### Desktop
+
+For desktop, the performance is 99.
 
 ### Wave Webaim - accessibility testing
 
