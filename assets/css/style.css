@@ -379,7 +379,6 @@ footer {
     }
 
     #info div {
-        text-align: flex-start;
         flex-basis: 300px;
         flex-grow: 1;
         padding-right: 10px;
