@@ -107,39 +107,48 @@ For desktop, the performance is 99.
 
 ### Wave Webaim - accessibility testing
 
-You can test your site for accessibility through the wave.webaim site - it needs to be deployed in order for it to test it. Fix any errors that it gives
+The test at Wave Webaim gave two errors. These two are conscious errors and are left unfixed due to the developer doesn't have the knowledge to make the toggle bar in JavaScript that would be preferred.
 
 ### Manual Testing
 
-You need to perform, and document everything you did to manually test your site.
-At a minimum - you need to check every link on every page works as intended.
-So that is check every link in the nav bar (do this on every single page because its a link in a different file) and any other links that appear on your site.
-Test the responsiveness of the site - you can do this in the dev tools in responsive mode.
-You should also load the site once deployed on as many devices you have access to. What is different from one device to the next? why is it different?
+In every page at the website has been manually tested. Every link in the header, body and footer has been clicked and checked so it valid. This has been done at every page in the website. The sign up form has been tested by typing in every field, checking the form doesn't allow sending before willing every required field.
 
-Test the user stories that you created earlier in the readme - did you satisfy the goal, how?
-
-To write up the tests you can use a table,
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-
-You should have tests for every section of every page.. individually.
+The responsivness has been tested in DevTools. It has also been tested through visiting the website in two different desktop sizes and one small evice (mobile phone).
 
 ## Technologies Used
 
-Detail what technologies you used. So what code languages, what frameworks, libraries, what software did you use to develop the site - Balsamic for your wireframes, Figma for a mockup?
+For the site, HTML and CSS has been used.
+It has been based on a GitHub repository and developed in Codeanywhere.
+The wireframes has been done in Balsamiq.
 
 ## Deployment
 
-Detail how to clone the repository, how to fork the repository - how to run the site locally and how to deploy it.
+The site was deployed to GitHub pages.
+- In the GitHub repository, choose Settings tab
+- In the left menu, press Pages
+- Choose main under branch
+
+Link to the website: https://fridawikell.github.io/kalmar-stadsmission/
 
 ## Credits
 
-You need to credit where you got anything for your site from.. where are the images from, are they all from the same site? where did you get the content from, if you wrote it yourself, did you fact check anywhere? did you get code from anywhere? if so, it needs to be clearly marked in both the code and the readme.
+### Images
+
+Images at respons page and 404 page are free images from pixabay.com.
+Images at index page, about page and get involved page is from pexels.com.
+
+### Code
+
+The code to embed the Youtube-video is from avexdesigns.com/blog/responsive-youtube-embed.
+For making the navigation bar responsive, the code is from Code Institue's Love running project.
+Button code to make "Back to home page" button is from https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link.
+
+### Other
+Favicon is from https://favicon.io/emoji-favicons/red-heart with license https://creativecommons.org/licenses/by/4.0/.
+The symbols in the footer and the hamburger icon in the navigation menu (when a small device is used) are from https://fontawesome.com/.
 
 ## Acknowledgements
 
-Any special acknowledgements you'd like to leave
+A big thanks to Linus Wikell for the idea and to Matt Bodden for the coding support!
 
 Back to top link to return to the top of the readme.
