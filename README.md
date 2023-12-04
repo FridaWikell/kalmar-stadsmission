@@ -1,6 +1,6 @@
 # Kalmar Stadsmission
 
-![image of site](link to image) - use an image from AmIResponsive that shows the site on multiple devices
+![image of site](documentation/) - use an image from AmIResponsive that shows the site on multiple devices
 
 ## Introduction
 
@@ -15,24 +15,31 @@ Kalmar Stadsmission is a site that hopes to get people to sign up to become a vo
 ### User Stories
 
 #### User Goals
+
 The goal for the user is to learn more about the different areas where you can help. It should also be an easy way to sign up to become a volunteer.
 
 #### Site Owner Goal
+
 It's to get more applications for people who wants to be volunteers.
 
 ## Design
+
 The design is simple and made to help the user to focus at the text.
 
-### Colour Scheme
+### Color Scheme
+
 The headers color was choosed to pop out next to a white background at a body. It was generated through coolors.co where the headers color and the fonts color was at the same color palette.
 
 ### Typography
+
 The fonts are from Google fonts where the filter was set to show only sans serif fonts. They where choosed to make the text simple to read.
 
 ### Imagery
+
 The images was choosed to visualise the text. One requirement was that they should be in color and look like they was taken out or real world.
 
 ### Wireframes
+
 The wireframes was made in Balsamiq.
 
 ## Features
@@ -137,6 +144,9 @@ Link to the website: https://fridawikell.github.io/kalmar-stadsmission/
 Images at respons page and 404 page are free images from pixabay.com.
 Images at index page, about page and get involved page is from pexels.com.
 
+The images has been converted to webp with https://convertio.co/.
+https://tinypng.com/ has been compressing the images.
+
 ### Code
 
 The code to embed the Youtube-video is from avexdesigns.com/blog/responsive-youtube-embed.
@@ -144,6 +154,7 @@ For making the navigation bar responsive, the code is from Code Institue's Love 
 Button code to make "Back to home page" button is from https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link.
 
 ### Other
+
 Favicon is from https://favicon.io/emoji-favicons/red-heart with license https://creativecommons.org/licenses/by/4.0/.
 The symbols in the footer and the hamburger icon in the navigation menu (when a small device is used) are from https://fontawesome.com/.
 
