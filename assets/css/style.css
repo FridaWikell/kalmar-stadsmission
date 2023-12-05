@@ -80,6 +80,12 @@ main {
     flex-direction: column;
 }
 
+main h2 {
+    text-align: center;
+    margin: 30px auto 20px auto;
+    width: 100%;
+}
+
 /* Index page */
 
 /* Hero image */
@@ -91,9 +97,9 @@ main {
 }
 
 /* Info text */
-main h2 {
+#info h2 {
     text-align: center;
-    margin: 30px auto 20px auto;
+    margin: 30px auto 30px auto;
     width: 100%;
 }
 
@@ -266,7 +272,6 @@ avexdesigns.com/blog/responsive-youtube-embed */
     font-size: 80%;
 }
 
-
 /* Respons page */
 #thank-you {
     display: flex;
@@ -381,6 +386,10 @@ footer {
     #info {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    #info h2 {
+        flex-basis: 100%;
     }
 
     #info div {
