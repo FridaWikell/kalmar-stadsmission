@@ -29,7 +29,7 @@ a {
 
 /* Header */
 header {
-    background-color: #648c94;
+    background-color: #7a9ea5;
     padding: 1rem 1rem;
     position: fixed;
     width: 100%;
@@ -43,7 +43,7 @@ header {
 /* Navigation bar */
 nav {
     position: absolute;
-    background-color: #648c94;
+    background-color: #7a9ea5;
     width: 100%;
     left: 0;
     padding: 1rem 1rem;
@@ -320,7 +320,7 @@ avexdesigns.com/blog/responsive-youtube-embed */
 
 /* Footer */
 footer {
-    background-color: #648c94;
+    background-color: #7a9ea5;
     border-top: #04050a 1px solid;
     height: 50px;
     padding-top: 7px;
