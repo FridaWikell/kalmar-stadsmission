@@ -137,6 +137,12 @@ For desktop, the performance is 99 and accessibility 100.
 
 The test at Wave Webaim gave two errors. These two are conscious errors and are left unfixed due to the developer doesn't have the knowledge to make the toggle bar in JavaScript that would be preferred.
 
+### Contrast Grid
+
+![Screenshot of the contrast grid](doc/contrast-grid.webp)
+
+The test at [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%237a9ea5%2C%20Background%20color%2C%20header%2Ffooter%0D%0A%2304050a%2C%20Font%20color%0D%0A%23e4e5eb%2C%20Form%20background%2C%20focus%0D%0A%23ceebf1%2C%20Background%20color%2C%20button%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) resulted in only AAA values in the combination used at the site.
+
 ### Manual Testing
 
 In every page at the website has been manually tested. Every link in the header, body and footer has been clicked and checked so it valid. This has been done at every page in the website. The sign up form has been tested by typing in every field, checking the form doesn't allow sending before willing every required field.
@@ -151,9 +157,11 @@ When the HTML validation was done the first time, it was an error which said anc
 
 When the site was tested in Lighthouse, it gave some improvment tips in making the image files smaller to make the loading speed faster. It was made for the image at Get involved page, the only image it warned about.
 
-When the accessibility testing was made in Wave Webaim, two errors occured. 
+When the accessibility testing was made in Wave Webaim, two errors occured.
 
 FIX IT!!
+
+During the contrast test one value was changed to increase the readability. The header and footer originally had #648C94 as background color and #04050A as font color. This combination gave a score of 5.5, equal AA. The background color was changed to #7A9Ea5 which gave a score at 7, equal AAA.
 
 ## Technologies Used
 
