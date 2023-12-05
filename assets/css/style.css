@@ -447,4 +447,17 @@ footer {
     #thank-you div {
         width: 60%;
     }
+
+    body, header {    
+    width: clamp(1440px, 100%, 1700px);
+    margin: 0 auto;
+    }
+}
+
+/* Really big screens (1700px and larger */
+@media screen and (min-width: 1700px) {
+    footer, header {
+        border-right: 1px solid #04050a;
+        border-left: 1px solid #04050a;
+    }  
 }
