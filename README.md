@@ -1,6 +1,6 @@
 # Kalmar Stadsmission
 
-![image of site](documentation/) - use an image from AmIResponsive that shows the site on multiple devices
+![image of site](doc/responsive.webp)
 
 ## Introduction
 
@@ -16,7 +16,7 @@ Kalmar Stadsmission is a site that hopes to get people to sign up to become a vo
 
 #### User Goals
 
-The goal for the user is to learn more about the different areas where you can help. It should also be an easy way to sign up to become a volunteer.
+The goal for the user is to learn more about the different areas where you can volunteer at Kalmar Stadsmission. It should also be an easy way to sign up to become a volunteer.
 
 #### Site Owner Goal
 
@@ -28,7 +28,7 @@ The design is simple and made to help the user to focus at the text.
 
 ### Color Scheme
 
-The headers color was choosed to pop out next to a white background at a body. It was generated through coolors.co where the headers color and the fonts color was at the same color palette.
+The headers color was choosed to pop out next to a white background at a body. It was decided to have a blue/grey color to make the site feel like a calm and trustworthy site. It was generated through coolors.co where the headers color and the fonts color was at the same color palette.
 
 ### Typography
 
@@ -40,7 +40,6 @@ The images was choosed to visualise the text. One requirement was that they shou
 
 ### Wireframes
 
-The wireframes was made in Balsamiq.
 
 ## Features
 
@@ -48,21 +47,31 @@ The wireframes was made in Balsamiq.
 
 #### Navigation bar
 
+![Screenshot of navigation bar with logo to the left, Home - About - Get involved to the right](doc/nav-bar.webp)
+
 It's located in all pages, making it possible to navigate to Home, About and Get involved page at all times. The navigation bar is identical in each page, making it wasy to navigate and recognize on all pages.
 
 #### The landing page image
+
+![Screenshot of landing page image, two holding hands](doc/landing-page-img.webp)
 
 This image will give the user a feeling of welcome and a feeling that we care about each other at this page.
 
 #### Help us give a helping hand section
 
+![Screenshot of a introduction to Kalmar Stadsmission in three columns](doc/help-us-give.webp)
+
 It's a short introduction to Kalmar Stadsmission and what they do. It also briefly covers how you can be involved in Kalmar Stadsmission.
 
 #### Video
 
+![Screenshot of the embedded video from Youtube about Kalmar Stadsmission](doc/video.webp)
+
 A short video that shows some thing that Kalmar Stadsmission does to help the people in need.
 
 #### Footer
+
+![Screenshot of the footer of the page with symbols of Facebook, Instagram, a cart and an envelope](doc/footer.webp)
 
 It's located in all pages, making it possible to navigate to Kalmar Stadsmission's pages at Facebook, Instagram and Tradera. The last icon makes it possible for the user to send a email to Kalmar Stadsmission.
 
@@ -70,21 +79,29 @@ It's located in all pages, making it possible to navigate to Kalmar Stadsmission
 
 #### How can you help introduction
 
+![Screenshot of the introduction to how you can help](doc/how-can-you.webp)
+
 This is a short introduction that is supposed to be motivating to sign up.
 
 #### The three different areas
 
-The three different areas where you can volunteer is presented. It's presented with a short text and an image that helps represent the area.
+![Screenshot of the three different areas you can volunteer in](doc/three-about.webp)
+
+The three different areas where you can volunteer is presented. It's presented with a short text and an image that helps represent the area. This is to help the user to decide which are they awnt to volunteer in.
 
 ### Get involved
 
 #### Quote from a volunteer
 
-An eye catching image get the user to read what a volunteer has so say about teeing a volunteer.
+![Screenshot of the motivational quote from a volunteer](doc/interview.webp)
+
+An eye catching image get the user to read what a volunteer has to say about beeing a volunteer.
 
 #### Sign up form
 
-A easy understandable form where you put your contact information to become a volunteer. You also get to choose which of the three areas you want to volunteer in. All fields are mandatory except age. It also has a submit button for sending the form and a reset button for clering the form if the user needs to start over.
+![Screenshot of the sign up form](doc/form.webp)
+
+A easy understandable form where you put your contact information to become a volunteer. You also get to choose which of the three areas you want to volunteer in. All fields are mandatory except age. It also has a submit button for sending the form and a reset button for clering the form if the user needs to start over. It is made to be easy, the user should get a feeling that it isn't hard to become a volunteer.
 
 ## Features to be Added
 
@@ -106,11 +123,15 @@ The website is tested in Lighthouse, both for mobile and desktop.
 
 #### Mobile
 
-For mobile devices, the performance is 94. The low score is mainly due to the video at the first page. For the moment, the developer doesn't have the skill to fix it due to lack of knowledge in JavaScript.
+![Screenshot of test made in Lighthouse - for mobile devices](doc/index-mobile.webp)
+
+For mobile devices, the performance is 94. The low score is mainly due to the video at the first page. For the moment, the developer doesn't have the skill to fix it due to lack of knowledge. The acccssibility is 100.
 
 #### Desktop
 
-For desktop, the performance is 99.
+![Screenshot of test made in Lighthouse - for desktop devices](doc/index-desktop.webp)
+
+For desktop, the performance is 99 and accessibility 100.
 
 ### Wave Webaim - accessibility testing
 
@@ -120,7 +141,7 @@ The test at Wave Webaim gave two errors. These two are conscious errors and are 
 
 In every page at the website has been manually tested. Every link in the header, body and footer has been clicked and checked so it valid. This has been done at every page in the website. The sign up form has been tested by typing in every field, checking the form doesn't allow sending before willing every required field.
 
-The responsivness has been tested in DevTools. It has also been tested through visiting the website in two different desktop sizes and one small evice (mobile phone).
+The responsivness has been tested in DevTools. It has also been tested through visiting the website in two different desktop sizes and one small device (mobile phone).
 
 ## Technologies Used
 
@@ -144,7 +165,7 @@ Link to the website: https://fridawikell.github.io/kalmar-stadsmission/
 Images at respons page and 404 page are free images from pixabay.com.
 Images at index page, about page and get involved page is from pexels.com.
 
-The images has been converted to webp with https://convertio.co/.
+The images has been converted to webp with <https://convertio.co/> and https://cloudconvert.com/.
 https://tinypng.com/ has been compressing the images.
 
 ### Code
