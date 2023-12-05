@@ -92,8 +92,9 @@ main {
 
 /* Info text */
 main h2 {
+    text-align: center;
     margin: 30px auto 20px auto;
-    padding: 0 7px;
+    width: 100%;
 }
 
 #info h3 {
