@@ -261,6 +261,11 @@ avexdesigns.com/blog/responsive-youtube-embed */
     font-weight: bold;
 }
 
+.home-button {
+    border: 1px solid #04050a;
+    font-size: 80%;
+}
+
 
 /* Respons page */
 #thank-you {
