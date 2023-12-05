@@ -143,6 +143,18 @@ In every page at the website has been manually tested. Every link in the header,
 
 The responsivness has been tested in DevTools. It has also been tested through visiting the website in two different desktop sizes and one small device (mobile phone).
 
+### Bugs
+
+During the testing some bugs where found.
+
+When the HTML validation was done the first time, it was an error which said anchor tags weren't supposed to be in button tags. It was changed by changing the code to another solution. It didn't get any errors at the next validation. This code was changed once again to make the code easier and more accesible for screen readers.
+
+When the site was tested in Lighthouse, it gave some improvment tips in making the image files smaller to make the loading speed faster. It was made for the image at Get involved page, the only image it warned about.
+
+When the accessibility testing was made in Wave Webaim, two errors occured. 
+
+FIX IT!!
+
 ## Technologies Used
 
 For the site, HTML and CSS has been used.
