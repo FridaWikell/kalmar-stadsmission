@@ -172,7 +172,7 @@ The images has been converted to webp with [Convertio](https://convertio.co/) an
 
 The code to embed the Youtube-video is from [Avexdesigns](avexdesigns.com/blog/responsive-youtube-embed).
 For making the navigation bar responsive, the code is from Code Institue's Love running project.
-Button code to make "Back to home page" button is from https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link.
+Button code to make "Back to home page" button is from [Stackoverflow](https://stackoverflow.com/questions/8357058/how-to-make-an-html-anchor-tag-or-link-look-like-a-button).
 
 ### Other
 
