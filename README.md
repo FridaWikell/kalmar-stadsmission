@@ -112,8 +112,8 @@ To increase the performance of the website in mobile devices, the video at the i
 
 ### Validation of Code
 
-All HTML pages are validated without errors in the W3 Markup Validation Service (<https://validator.w3.org/>)
-The CSS page are validated without errors in the W3 CSS Validation Service (<https://jigsaw.w3.org/css-validator/>). One warning appeared; "Imported style sheets are not checked in direct input and file upload modes" which can be ignored since it dowsn't affect the written CSS code.
+All HTML pages are validated without errors in the [W3 Markup Validation Service](https://validator.w3.org/)
+The CSS page are validated without errors in the [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/). One warning appeared; "Imported style sheets are not checked in direct input and file upload modes" which can be ignored since it dowsn't affect the written CSS code.
 
 INSERT SCREENSHOTS!!!
 
@@ -165,19 +165,19 @@ Link to the website: https://fridawikell.github.io/kalmar-stadsmission/
 Images at respons page and 404 page are free images from pixabay.com.
 Images at index page, about page and get involved page is from pexels.com.
 
-The images has been converted to webp with <https://convertio.co/> and https://cloudconvert.com/.
-https://tinypng.com/ has been compressing the images.
+The images has been converted to webp with [Convertio](https://convertio.co/) and [Cloudconvert](https://cloudconvert.com/).
+[TinyPNG](https://tinypng.com/) has been used to compress the images.
 
 ### Code
 
-The code to embed the Youtube-video is from avexdesigns.com/blog/responsive-youtube-embed.
+The code to embed the Youtube-video is from [Avexdesigns](avexdesigns.com/blog/responsive-youtube-embed).
 For making the navigation bar responsive, the code is from Code Institue's Love running project.
 Button code to make "Back to home page" button is from https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link.
 
 ### Other
 
-Favicon is from https://favicon.io/emoji-favicons/red-heart with license https://creativecommons.org/licenses/by/4.0/.
-The symbols in the footer and the hamburger icon in the navigation menu (when a small device is used) are from https://fontawesome.com/.
+The favicon is from [Favicon.io](https://favicon.io/emoji-favicons/red-heart) with license [CC BY 4.0 DEED](https://creativecommons.org/licenses/by/4.0/).
+The symbols in the footer and the hamburger icon in the navigation menu (when a small device is used) are from [Fontawesome.com](https://fontawesome.com/).
 
 ## Acknowledgements
 
