@@ -240,7 +240,7 @@ The site was deployed to GitHub pages.
 - In the left menu, press Pages
 - Choose main under branch
 
-Link to the website: (<https://fridawikell.github.io/kalmar-stadsmission/>)
+Link to the website: <https://fridawikell.github.io/kalmar-stadsmission/>
 
 ## Credits
 
@@ -254,7 +254,7 @@ The images has been converted to .webp with [Convertio](https://convertio.co/) a
 
 ### Code
 
-The code to embed the Youtube-video is from [Avexdesigns.](avexdesigns.com/blog/responsive-youtube-embed)
+The code to embed the Youtube-video is from [Avexdesigns.](https://www.avexdesigns.com/blog/responsive-youtube-embed/)
 For making the navigation bar responsive, the code is from Code Institue's Love running project.
 Button code to make "Back to home page" button is from [Stackoverflow.](https://stackoverflow.com/questions/8357058/how-to-make-an-html-anchor-tag-or-link-look-like-a-button)
 To limit the sites width on large screens, clamp code was used from [Raybo.](https://raybo.org/posts/2021-02-28-CSS%20Clamp/)
