@@ -98,7 +98,7 @@ All of the wireframes are made in Balsamiq with the idea of creating an easy str
 
 #### Other pages
 
-The wireframes to [404 page](doc/wireframe-error.webp) and [respons page](doc/wireframe-respons.webp) are located in the doc folder.
+The wireframes to [404 page](doc/wireframe-error.webp){:target=”_blank”} and [respons page](doc/wireframe-respons.webp){:target=”_blank”} are located in the doc folder.
 
 ## Features
 
@@ -171,11 +171,11 @@ To increase the performance of the website in mobile devices, the video at the i
 
 ### Validation of Code
 
-All HTML pages are validated without errors in the [W3 Markup Validation Service.](https://validator.w3.org/)
+All HTML pages are validated without errors in the [W3 Markup Validation Service.](https://validator.w3.org/){:target=”_blank”}
 
 ![Screenshot of valid HTML code](doc/valid-html.webp)
 
-The CSS page are validated without errors in the [W3 CSS Validation Service.](https://jigsaw.w3.org/css-validator/) One warning appeared; "Imported style sheets are not checked in direct input and file upload modes" which can be ignored since it doesn't affect the written CSS code.
+The CSS page are validated without errors in the [W3 CSS Validation Service.](https://jigsaw.w3.org/css-validator/){:target=”_blank”} One warning appeared; "Imported style sheets are not checked in direct input and file upload modes" which can be ignored since it doesn't affect the written CSS code.
 
 INSERT SCREENSHOTS!!!
 
@@ -205,7 +205,7 @@ FIX AND INSERT SCREENSHOT!
 
 ![Screenshot of the contrast grid](doc/contrast-grid.webp)
 
-The test at [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%237a9ea5%2C%20Background%20color%2C%20header%2Ffooter%0D%0A%2304050a%2C%20Font%20color%0D%0A%23e4e5eb%2C%20Form%20background%2C%20focus%0D%0A%23ceebf1%2C%20Background%20color%2C%20button%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) resulted in only AAA values in the combination used at the site.
+The test at [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%237a9ea5%2C%20Background%20color%2C%20header%2Ffooter%0D%0A%2304050a%2C%20Font%20color%0D%0A%23e4e5eb%2C%20Form%20background%2C%20focus%0D%0A%23ceebf1%2C%20Background%20color%2C%20button%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp){:target=”_blank”} resulted in only AAA values in the combination used at the site.
 
 ### Manual Testing
 
@@ -240,29 +240,29 @@ The site was deployed to GitHub pages.
 - In the left menu, press Pages
 - Choose main under branch
 
-Link to the website: https://fridawikell.github.io/kalmar-stadsmission/
+Link to the website: (<https://fridawikell.github.io/kalmar-stadsmission/>){:target=”_blank”}
 
 ## Credits
 
 ### Images
 
-Images at respons page and 404 page are free images from [Pixabay.](https://pixabay.com/)
-Images at index page, about page and get involved page are from [Pexels.](https://www.pexels.com/)
+Images at respons page and 404 page are free images from [Pixabay.](https://pixabay.com/){:target=”_blank”}
+Images at index page, about page and get involved page are from [Pexels.](https://www.pexels.com/){:target=”_blank”}
 
-The images has been converted to .webp with [Convertio](https://convertio.co/) and [Cloudconvert](https://cloudconvert.com/).
-[TinyPNG](https://tinypng.com/) has been used to compress the images.
+The images has been converted to .webp with [Convertio](https://convertio.co/){:target=”_blank”} and [Cloudconvert.](https://cloudconvert.com/){:target=”_blank”}
+[TinyPNG](https://tinypng.com/){:target=”_blank”} has been used to compress the images.
 
 ### Code
 
-The code to embed the Youtube-video is from [Avexdesigns](avexdesigns.com/blog/responsive-youtube-embed).
+The code to embed the Youtube-video is from [Avexdesigns.](avexdesigns.com/blog/responsive-youtube-embed){:target=”_blank”}
 For making the navigation bar responsive, the code is from Code Institue's Love running project.
-Button code to make "Back to home page" button is from [Stackoverflow](https://stackoverflow.com/questions/8357058/how-to-make-an-html-anchor-tag-or-link-look-like-a-button).
-To limit the sites width on large screens, clamp code was used from [Raybo](https://raybo.org/posts/2021-02-28-CSS%20Clamp/).
+Button code to make "Back to home page" button is from [Stackoverflow.](https://stackoverflow.com/questions/8357058/how-to-make-an-html-anchor-tag-or-link-look-like-a-button){:target=”_blank”}
+To limit the sites width on large screens, clamp code was used from [Raybo.](https://raybo.org/posts/2021-02-28-CSS%20Clamp/){:target=”_blank”}
 
 ### Other
 
-The favicon is from [Favicon](https://favicon.io/emoji-favicons/red-heart) with license [CC BY 4.0 DEED](https://creativecommons.org/licenses/by/4.0/).
-The symbols in the footer and the hamburger icon in the navigation menu (when a small device is used) are from [Fontawesome](https://fontawesome.com/).
+The favicon is from [Favicon](https://favicon.io/emoji-favicons/red-heart){:target=”_blank”} with license [CC BY 4.0 DEED.](https://creativecommons.org/licenses/by/4.0/){:target=”_blank”}
+The symbols in the footer and the hamburger icon in the navigation menu (when a small device is used) are from [Fontawesome.](https://fontawesome.com/){:target=”_blank”}
 
 ## Acknowledgements
 
