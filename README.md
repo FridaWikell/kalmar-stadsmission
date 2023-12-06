@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Kalmar Stadsmission is a site that hopes to get people to sign up to become a volunteer at the non-profit organisation Kalmar Stadsmission. It shows the possibiities in doing something that will give you a meaning in your life, and at the same time help someone in need.
+Kalmar Stadsmission is a site that hopes to get people to sign up to become a volunteer at the non-profit organisation Kalmar Stadsmission. It shows the possibiities of doing something that will give you a meaning in your life, and at the same time help someone in need.
 
 ## Table of Contents
 
@@ -70,19 +70,19 @@ The design is simple and made to help the user to focus at the text.
 
 ### Color Scheme
 
-The headers color was choosed to pop out next to a white background at a body. It was decided to have a blue/grey color to make the site feel like a calm and trustworthy site. It was generated through coolors.co where the headers color and the fonts color was at the same color palette.
+The headers color was choosed to pop out next to a white background at the body. It was decided to have a blue/grey color to make the site feel calm and trustworthy. It was generated through coolors.co where the headers color and the fonts color were at the same color palette.
 
 ### Typography
 
-The fonts are from Google fonts where the filter was set to show only sans serif fonts. They where choosed to make the text simple to read.
+The fonts are from Google fonts where the filter was set to show only sans serif fonts. They where choosed to make the text easy to read.
 
 ### Imagery
 
-The images was choosed to visualise the text. One requirement was that they should be in color and look like they was taken out or real world.
+The images was choosed to visualise the text. One requirement was that they should be in color and look like they was taken out of the real world.
 
 ### Wireframes
 
-All of the wireframes are made in Balsamiq with the idea of creating a easy structured website.
+All of the wireframes are made in Balsamiq with the idea of creating an easy structured website.
 
 #### Index page
 
@@ -108,7 +108,7 @@ The wireframes to [404 page](doc/wireframe-error.webp) and [respons page](doc/wi
 
 ![Screenshot of navigation bar with logo to the left, Home - About - Get involved to the right](doc/header-image.webp)
 
-It's located in all pages, making it possible to navigate to Home, About and Get involved page at all times. The navigation bar is identical in each page, making it wasy to navigate and recognize on all pages.
+It's located in all pages, making it possible to navigate to Home, About and Get involved page at all times. The navigation bar is identical in each page, making it easy to navigate and recognize all pages.
 
 #### The landing page image
 
@@ -126,13 +126,13 @@ It's a short introduction to Kalmar Stadsmission and what they do. It also brief
 
 ![Screenshot of the embedded video from Youtube about Kalmar Stadsmission](doc/video.webp)
 
-A short video that shows some thing that Kalmar Stadsmission does to help the people in need.
+A short video that shows some things Kalmar Stadsmission does to help the people in need.
 
 #### Footer
 
 ![Screenshot of the footer of the page with symbols of Facebook, Instagram, a cart and an envelope](doc/footer-image.webp)
 
-It's located in all pages, making it possible to navigate to Kalmar Stadsmission's pages at Facebook, Instagram and Tradera. The last icon makes it possible for the user to send a email to Kalmar Stadsmission.
+It's located in all pages, making it possible to navigate to Kalmar Stadsmission's pages at Facebook, Instagram and Tradera. The last icon makes it possible for the user to send a email to Kalmar Stadsmission. All links open in a new tab.
 
 ### About
 
@@ -146,7 +146,7 @@ This is a short introduction that is supposed to be motivating to sign up.
 
 ![Screenshot of the three different areas you can volunteer in](doc/three-about.webp)
 
-The three different areas where you can volunteer is presented. It's presented with a short text and an image that helps represent the area. This is to help the user to decide which are they awnt to volunteer in.
+The three different areas where you can volunteer is presented. It's presented with a short text and an image that represent the area. This is to help the user to decide which area they want to volunteer in.
 
 ### Get involved
 
@@ -160,7 +160,7 @@ An eye catching image get the user to read what a volunteer has to say about bee
 
 ![Screenshot of the sign up form](doc/form.webp)
 
-A easy understandable form where you put your contact information to become a volunteer. You also get to choose which of the three areas you want to volunteer in. All fields are mandatory except age. It also has a submit button for sending the form and a reset button for clering the form if the user needs to start over. It is made to be easy, the user should get a feeling that it isn't hard to become a volunteer.
+An easy understandable form where you submit your contact information to become a volunteer. You also get to choose which of the three areas you want to volunteer in. All fields are mandatory except age. It also has a submit button for sending the form and a reset button for clering the form if the user needs to start over. It is made to be easy, the user should get a feeling that it isn't hard to become a volunteer.
 
 ## Features to be Added
 
@@ -175,7 +175,7 @@ All HTML pages are validated without errors in the [W3 Markup Validation Service
 
 ![Screenshot of valid HTML code](doc/valid-html.webp)
 
-The CSS page are validated without errors in the [W3 CSS Validation Service.](https://jigsaw.w3.org/css-validator/). One warning appeared; "Imported style sheets are not checked in direct input and file upload modes" which can be ignored since it dowsn't affect the written CSS code.
+The CSS page are validated without errors in the [W3 CSS Validation Service.](https://jigsaw.w3.org/css-validator/) One warning appeared; "Imported style sheets are not checked in direct input and file upload modes" which can be ignored since it doesn't affect the written CSS code.
 
 INSERT SCREENSHOTS!!!
 
@@ -187,7 +187,7 @@ The website is tested in Lighthouse, both for mobile and desktop.
 
 ![Screenshot of test made in Lighthouse - for mobile devices](doc/index-mobile.webp)
 
-For mobile devices, the performance is 94. The low score is mainly due to the video at the first page. For the moment, the developer doesn't have the skill to fix it due to lack of knowledge. The acccssibility is 100.
+For mobile devices, the performance is 94. The low score is mainly due to the video at the first page. At the moment, the developer doesn't have the skill to fix it due to lack of knowledge. The accessibility is 100.
 
 #### Desktop
 
@@ -209,13 +209,13 @@ The test at [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0
 
 ### Manual Testing
 
-In every page at the website has been manually tested. Every link in the header, body and footer has been clicked and checked so it valid. This has been done at every page in the website. The sign up form has been tested by typing in every field, checking the form doesn't allow sending before willing every required field.
+Every page at the website has been manually tested. Every link in the header, body and footer has been clicked and checked so it valid. This has been done at every page in the website. The sign up form has been tested by typing in every field, checking so the form doesn't allow sending before filling every required field.
 
 The responsivness has been tested in DevTools. It has also been tested through visiting the website in two different desktop sizes and one small device (mobile phone).
 
 ### Bugs
 
-During the testing some bugs where found.
+During the testing some bugs were found.
 
 When the HTML validation was done the first time, it was an error which said anchor tags weren't supposed to be in button tags. It was changed by changing the code to another solution. It didn't get any errors at the next validation. This code was changed once again to make the code easier and more accesible for screen readers.
 
@@ -246,10 +246,10 @@ Link to the website: https://fridawikell.github.io/kalmar-stadsmission/
 
 ### Images
 
-Images at respons page and 404 page are free images from pixabay.com.
-Images at index page, about page and get involved page is from pexels.com.
+Images at respons page and 404 page are free images from [Pixabay.](https://pixabay.com/)
+Images at index page, about page and get involved page are from [Pexels.](https://www.pexels.com/)
 
-The images has been converted to webp with [Convertio](https://convertio.co/) and [Cloudconvert](https://cloudconvert.com/).
+The images has been converted to .webp with [Convertio](https://convertio.co/) and [Cloudconvert](https://cloudconvert.com/).
 [TinyPNG](https://tinypng.com/) has been used to compress the images.
 
 ### Code
