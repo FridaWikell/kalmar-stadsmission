@@ -8,17 +8,59 @@ Kalmar Stadsmission is a site that hopes to get people to sign up to become a vo
 
 ## Table of Contents
 
-
+- [Kalmar Stadsmission](#kalmar-stadsmission)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+  - [User Experience](#user-experience)
+    - [User Goals](#user-goals)
+    - [Site Owner Goal](#site-owner-goal)
+  - [Design](#design)
+    - [Color Scheme](#color-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Wireframes](#wireframes)
+      - [Index page](#index-page)
+      - [About page](#about-page)
+      - [Get involved page](#get-involved-page)
+      - [Other pages](#other-pages)
+  - [Features](#features)
+    - [Index page](#index-page-1)
+      - [Navigation bar](#navigation-bar)
+      - [The landing page image](#the-landing-page-image)
+      - [Help us give a helping hand section](#help-us-give-a-helping-hand-section)
+      - [Video](#video)
+      - [Footer](#footer)
+    - [About](#about)
+      - [How can you help introduction](#how-can-you-help-introduction)
+      - [The three different areas](#the-three-different-areas)
+    - [Get involved](#get-involved)
+      - [Quote from a volunteer](#quote-from-a-volunteer)
+      - [Sign up form](#sign-up-form)
+  - [Features to be Added](#features-to-be-added)
+  - [Testing](#testing)
+    - [Validation of Code](#validation-of-code)
+    - [Lighthouse](#lighthouse)
+      - [Mobile](#mobile)
+      - [Desktop](#desktop)
+    - [Wave Webaim - accessibility testing](#wave-webaim---accessibility-testing)
+    - [Contrast Grid](#contrast-grid)
+    - [Manual Testing](#manual-testing)
+    - [Bugs](#bugs)
+  - [Technologies Used](#technologies-used)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Images](#images)
+    - [Code](#code)
+    - [Other](#other)
+  - [Acknowledgements](#acknowledgements)
 
 ## User Experience
 
-### User Stories
-
-#### User Goals
+### User Goals
 
 The goal for the user is to learn more about the different areas where you can volunteer at Kalmar Stadsmission. It should also be an easy way to sign up to become a volunteer.
 
-#### Site Owner Goal
+### Site Owner Goal
 
 It's to get more applications for people who wants to be volunteers.
 
@@ -42,19 +84,19 @@ The images was choosed to visualise the text. One requirement was that they shou
 
 All of the wireframes are made in Balsamiq with the idea of creating a easy structured website.
 
-### Index page
+#### Index page
 
 ![Wireframe of the index page](doc/wireframe-index.webp)
 
-### About page
+#### About page
 
 ![Wireframe of the about page](doc/wireframe-about.webp)
 
-### Get involved page
+#### Get involved page
 
 ![Wireframe of the get involved page](doc/wireframe-get-involved.webp)
 
-### Other pages
+#### Other pages
 
 The wireframes to [404 page](doc/wireframe-error.webp) and [respons page](doc/wireframe-respons.webp) are located in the doc folder.
 
