@@ -148,7 +148,6 @@ avexdesigns.com/blog/responsive-youtube-embed */
 }
 
 /* About page */
-
 #helping {
     display: flex;
     flex-direction: column;
@@ -457,7 +456,7 @@ footer {
         width: 60%;
     }
 
-    /* Clamp function from https: //raybo.org/posts/2021-02-28-CSS%20Clamp/ */
+    /* Clamp function from https://raybo.org/posts/2021-02-28-CSS%20Clamp/ */
     body, header {    
     width: clamp(1440px, 100%, 1700px);
     margin: 0 auto;
