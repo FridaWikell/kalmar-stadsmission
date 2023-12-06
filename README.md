@@ -1,6 +1,6 @@
 # Kalmar Stadsmission
 
-![image of site](doc/responsive.webp)
+![image of site](doc/index-responsive.webp)
 
 ## Introduction
 
@@ -40,6 +40,23 @@ The images was choosed to visualise the text. One requirement was that they shou
 
 ### Wireframes
 
+All of the wireframes are made in Balsamiq with the idea of creating a easy structured website.
+
+### Index page
+
+![Wireframe of the index page](doc/wireframe-index.webp)
+
+### About page
+
+![Wireframe of the about page](doc/wireframe-about.webp)
+
+### Get involved page
+
+![Wireframe of the get involved page](doc/wireframe-get-involved.webp)
+
+### Other pages
+
+The wireframes to [404 page](doc/wireframe-error.webp) and [respons page](doc/wireframe-respons.webp) are located in the doc folder.
 
 ## Features
 
@@ -47,7 +64,7 @@ The images was choosed to visualise the text. One requirement was that they shou
 
 #### Navigation bar
 
-![Screenshot of navigation bar with logo to the left, Home - About - Get involved to the right](doc/nav-bar.webp)
+![Screenshot of navigation bar with logo to the left, Home - About - Get involved to the right](doc/header-image.webp)
 
 It's located in all pages, making it possible to navigate to Home, About and Get involved page at all times. The navigation bar is identical in each page, making it wasy to navigate and recognize on all pages.
 
@@ -71,7 +88,7 @@ A short video that shows some thing that Kalmar Stadsmission does to help the pe
 
 #### Footer
 
-![Screenshot of the footer of the page with symbols of Facebook, Instagram, a cart and an envelope](doc/footer.webp)
+![Screenshot of the footer of the page with symbols of Facebook, Instagram, a cart and an envelope](doc/footer-image.webp)
 
 It's located in all pages, making it possible to navigate to Kalmar Stadsmission's pages at Facebook, Instagram and Tradera. The last icon makes it possible for the user to send a email to Kalmar Stadsmission.
 
@@ -112,8 +129,11 @@ To increase the performance of the website in mobile devices, the video at the i
 
 ### Validation of Code
 
-All HTML pages are validated without errors in the [W3 Markup Validation Service](https://validator.w3.org/)
-The CSS page are validated without errors in the [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/). One warning appeared; "Imported style sheets are not checked in direct input and file upload modes" which can be ignored since it dowsn't affect the written CSS code.
+All HTML pages are validated without errors in the [W3 Markup Validation Service.](https://validator.w3.org/)
+
+![Screenshot of valid HTML code](doc/valid-html.webp)
+
+The CSS page are validated without errors in the [W3 CSS Validation Service.](https://jigsaw.w3.org/css-validator/). One warning appeared; "Imported style sheets are not checked in direct input and file upload modes" which can be ignored since it dowsn't affect the written CSS code.
 
 INSERT SCREENSHOTS!!!
 
@@ -136,6 +156,8 @@ For desktop, the performance is 99 and accessibility 100.
 ### Wave Webaim - accessibility testing
 
 The test at Wave Webaim gave two errors. These two are conscious errors and are left unfixed due to the developer doesn't have the knowledge to make the toggle bar in JavaScript that would be preferred.
+
+FIX AND INSERT SCREENSHOT!
 
 ### Contrast Grid
 
@@ -197,11 +219,11 @@ To limit the sites width on large screens, clamp code was used from [Raybo](http
 
 ### Other
 
-The favicon is from [Favicon.io](https://favicon.io/emoji-favicons/red-heart) with license [CC BY 4.0 DEED](https://creativecommons.org/licenses/by/4.0/).
-The symbols in the footer and the hamburger icon in the navigation menu (when a small device is used) are from [Fontawesome.com](https://fontawesome.com/).
+The favicon is from [Favicon](https://favicon.io/emoji-favicons/red-heart) with license [CC BY 4.0 DEED](https://creativecommons.org/licenses/by/4.0/).
+The symbols in the footer and the hamburger icon in the navigation menu (when a small device is used) are from [Fontawesome](https://fontawesome.com/).
 
 ## Acknowledgements
 
 A big thanks to Linus Wikell for the idea and to Matt Bodden for the coding support!
 
-Back to top link to return to the top of the readme.
+[Back to top](#kalmar-stadsmission)
