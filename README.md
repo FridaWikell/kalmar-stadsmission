@@ -218,6 +218,7 @@ The test at [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0
 
 Every page at the website has been manually tested. It has been done in Google Chrome DevTools and on different devices.
 The devices used was one mobile phone, one laptop and one external screen:
+
 - Samsung Galaxy A52s (1080 x 2400)
 - HP 250 G4 Notebook PC (1366 x 768)
 - HP 2309v LCD Screen (1920 x 1080)
@@ -295,9 +296,7 @@ When the HTML validation was done the first time, it was an error which said anc
 
 When the site was tested in Lighthouse, it gave some improvment tips in making the image files smaller to make the loading speed faster. It was made for the image at Get involved page, the only image it warned about.
 
-When the accessibility testing was made in Wave Webaim, two errors occured.
-
-FIX IT!!
+When the accessibility testing was made in Wave Webaim, one error occured. It was "Empty form label" in the nav bar. It was corrected by adding a Toggle menu text which was made to be hidden, but able to be read by screen readers.
 
 During the contrast test one value was changed to increase the readability. The header and footer originally had #648C94 as background color and #04050A as font color. This combination gave a score of 5.5, equal AA. The background color was changed to #7A9Ea5 which gave a score at 7, equal AAA.
 
@@ -310,6 +309,7 @@ The wireframes has been done in Balsamiq.
 ## Deployment
 
 The site was deployed to GitHub pages.
+
 - In the GitHub repository, choose Settings tab
 - In the left menu, press Pages
 - Choose main under branch
@@ -330,6 +330,7 @@ The images has been converted to .webp with [Convertio](https://convertio.co/) a
 
 The code to embed the Youtube-video is from [Avexdesigns.](https://www.avexdesigns.com/blog/responsive-youtube-embed/)
 For making the navigation bar responsive, the code is from Code Institue's Love running project.
+To hide Toggle menu, the code is from [CSS Tricks.](https://css-tricks.com/inclusively-hidden/)
 Button code to make "Back to home page" button is from [Stackoverflow.](https://stackoverflow.com/questions/8357058/how-to-make-an-html-anchor-tag-or-link-look-like-a-button)
 To limit the sites width on large screens, clamp code was used from [Raybo.](https://raybo.org/posts/2021-02-28-CSS%20Clamp/)
 
