@@ -179,11 +179,18 @@ A feature of time booking when you want to have your volunteer introduction visi
 
 All HTML pages are validated without errors in the [W3 Markup Validation Service.](https://validator.w3.org/)
 
-![Screenshot of valid HTML code](doc/valid-html.webp)
+![Screenshot of valid HTML code](doc/html-index.webp)
 
-The CSS page are validated without errors in the [W3 CSS Validation Service.](https://jigsaw.w3.org/css-validator/) One warning appeared; "Imported style sheets are not checked in direct input and file upload modes" which can be ignored since it doesn't affect the written CSS code.
+To see the validation at the other pages, you find them in the doc folder.
 
-INSERT SCREENSHOTS!!!
+- [About page](doc/html-about.webp)
+- [Get involved page](doc/html-get-involved.webp)
+- [Respons page](doc/html-respons.webp)
+- [404 page](doc/html-404.webp)
+
+![Screenshot of valid CCS code](doc/css-valid.webp)
+
+The CSS page are validated without errors in the [W3 CSS Validation Service.](https://jigsaw.w3.org/css-validator/)
 
 ### Lighthouse
 
@@ -197,9 +204,15 @@ For mobile devices, the performance is 94. The low score is mainly due to the vi
 
 #### Desktop
 
-![Screenshot of test made in Lighthouse - for desktop devices](doc/index-desktop.webp)
+![Screenshot of test made in Lighthouse - for desktop devices](doc/LH-Desktop-index.webp)
 
-For desktop, the performance is 99 and accessibility 100.
+For desktop, the performance and accessibility are 100.
+
+To see the validation at the other pages, you find them in the doc folder.
+
+- [About page](doc/LH-Desktop-about.webp)
+- [Get involved page](doc/LH-Desktop-get-involved.webp)
+- [Respons page](doc/LH-Desktop-respons.webp)
 
 ### Wave Webaim - accessibility testing
 
@@ -207,7 +220,12 @@ For desktop, the performance is 99 and accessibility 100.
 
 The test at Wave Webaim gave a result without errors.
 
-To see the other 
+To see the validation at the other pages, you find them in the doc folder.
+
+- [About page](doc/wave-about.webp)
+- [Get involved page](doc/wave-get-involved.webp)
+- [Respons page](doc/wave-respons.webp)
+- [404 page](doc/wave-404.webp)
 
 ### Contrast Grid
 
@@ -295,7 +313,7 @@ During the testing some bugs were found.
 
 When the HTML validation was done the first time, it was an error which said anchor tags weren't supposed to be in button tags. It was changed by changing the code to another solution. It didn't get any errors at the next validation. This code was changed once again to make the code easier and more accesible for screen readers.
 
-When the site was tested in Lighthouse, it gave some improvment tips in making the image files smaller to make the loading speed faster. It was made for the image at Get involved page, the only image it warned about.
+When the site was tested in Lighthouse, it gave some improvment tips in making the image files smaller to make the loading speed faster. It was made for the image at Get involved page. The hero image at the index page were cropped to make the loading faster.
 
 When the accessibility testing was made in Wave Webaim, one error occured. It was "Empty form label" in the nav bar. It was corrected by adding a Toggle menu text which was made to be hidden, but able to be read by screen readers.
 
