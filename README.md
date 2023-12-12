@@ -216,9 +216,11 @@ The test at [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0
 
 ### Manual Testing
 
-Every page at the website has been manually tested. Every link in the header, body and footer has been clicked and checked so it valid. This has been done at every page in the website. The sign up form has been tested by typing in every field, checking so the form doesn't allow sending before filling every required field.
-
-The responsivness has been tested in DevTools. It has also been tested through visiting the website in two different desktop sizes and one small device (mobile phone).
+Every page at the website has been manually tested. It has been done in Google Chrome DevTools and on different devices.
+The devices used was one mobile phone, one laptop and one external screen:
+- Samsung Galaxy A52s (1080 x 2400)
+- HP 250 G4 Notebook PC (1366 x 768)
+- HP 2309v LCD Screen (1920 x 1080)
 
 #### Navbar
 
@@ -253,21 +255,37 @@ The responsivness has been tested in DevTools. It has also been tested through v
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Readable text | The text is easy readable | In different screen sizes in DevTools, read through all text | The text was easy to read thanks to space around and good contrast between text and background | Pass |
+| Matching text and image | Image and text matches | Look at the image and read through the text | The text is a quote from a woman, 36 years old, which the woman at the image could be | Pass |
+| Easy form | An easy understandable form | Try to fill the form in both a testing computer and testing mobile device | All fields were easy to fill and understand what was supposed to be filled in each field | Pass |
+| Required fields in form | Not being able to send the form if one of the required fields aren't filled | Try to leave one field empty and try to send the form and repeat for every field | The form wasn't able to send if one (or more) of the required fields were empty | Pass |
+| Send button | Direct the user to the respons page | Fill the form and press Send | The Send button directed the user to the respons page | Pass |
+| Clear button | Clear the form | Fill the form and press Clear | The form was cleared | Pass |
+| Responsivness | All elements change size depending on which screen size used | On all test devices and with the help from DevTools, the page was visited and checked that all elements was readable and not floating on to each other | Pass |
 
 #### Respons page
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsivness | The text and image changes depending on screen size | In DevTools, change screen size from smallest to largest | The text and image changes size depending on which screen size used | Pass |
+| Mail address | Correct mail address which opens the email client when clicked at | Click at the email address | On both testing computer and testing mobile device the email address was clicked at and opened the email client with an empty mail addressed to correct email address | Pass |
+| Home page button | Direct the user to home page | Click at the button on the testing devices (computer and mobile) | The user was sent to the home page | Pass |
 
 #### 404 page
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsivness | The text and image change size depending on screen size | In DevTools and testing devices, change screen sizes | The image and all text change´d size depending on screen size | Pass |
+| Home page button | Direct the user to home page | Click at the button on the testing devices (computer and mobile) | The user was sent to the home page | Pass |
 
 #### Footer
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Links | All links direct the user to the correct site in a new tab | Click at all links | All links sent the user to the correct site, all links opened in a new tab | Pass |
+| Icons | The icons matches the links | Compare the linked site and the icon | The icons matched the linked site | Pass |
+| Placement | Always at the bottom of the screen | In DevTools, from small to large screens, check that footer always is at the bottom of the screen | At all screen sizes, the footer was located at the bottom of the screen | Pass |
+| Responsivness | The icons spreads out when the screen size gets bigger | Check the icons in the footer in DevTools from small to large screens | The icons spreads out when the screen is getting bigger | Pass |
 
 ### Bugs
 
