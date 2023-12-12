@@ -172,7 +172,6 @@ An easy understandable form where you submit your contact information to become 
 ## Features to be Added
 
 A feature of time booking when you want to have your volunteer introduction visit (or just a regular visit) will increase the users value.
-To increase the performance of the website in mobile devices, the video at the index page should be optimized and not fully loaded when you visit the site without pressing start.
 
 ## Testing
 
