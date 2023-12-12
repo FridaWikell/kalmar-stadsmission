@@ -188,7 +188,7 @@ To see the validation at the other pages, you find them in the doc folder.
 - [Respons page](doc/html-respons.webp)
 - [404 page](doc/html-404.webp)
 
-![Screenshot of valid CCS code](doc/css-valid.webp)
+![Screenshot of valid CCS code](doc/css-valid-report.webp)
 
 The CSS page are validated without errors in the [W3 CSS Validation Service.](https://jigsaw.w3.org/css-validator/)
 
