@@ -203,7 +203,7 @@ For desktop, the performance is 99 and accessibility 100.
 
 ### Wave Webaim - accessibility testing
 
-The test at Wave Webaim gave two errors: Missing form label and Empty form label. These two are conscious errors and are left unfixed due to the developer doesn't have the knowledge to make the toggle bar in JavaScript that would be preferred.
+The test at Wave Webaim gave a result without errors.
 
 FIX AND INSERT SCREENSHOT!
 
