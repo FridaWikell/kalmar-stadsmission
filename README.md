@@ -45,6 +45,13 @@ Kalmar Stadsmission is a site that hopes to get people to sign up to become a vo
     - [Wave Webaim - accessibility testing](#wave-webaim---accessibility-testing)
     - [Contrast Grid](#contrast-grid)
     - [Manual Testing](#manual-testing)
+      - [Navbar](#navbar)
+      - [Index page](#index-page-2)
+      - [About page](#about-page-1)
+      - [Get involved page](#get-involved-page-1)
+      - [Respons page](#respons-page)
+      - [404 page](#404-page)
+      - [Footer](#footer-1)
     - [Bugs](#bugs)
   - [Technologies Used](#technologies-used)
   - [Deployment](#deployment)
@@ -212,6 +219,55 @@ The test at [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0
 Every page at the website has been manually tested. Every link in the header, body and footer has been clicked and checked so it valid. This has been done at every page in the website. The sign up form has been tested by typing in every field, checking so the form doesn't allow sending before filling every required field.
 
 The responsivness has been tested in DevTools. It has also been tested through visiting the website in two different desktop sizes and one small device (mobile phone).
+
+#### Navbar
+
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Navbar | Get stuck at the top when scrolling  | Scrolling the entire page, from top to bottom | Navbar is sticking at the top at the site | Pass |
+| Navbar three bar icon | On small devices, being a three bar icon | Choosing a small device in DevTools and visit the site in a cell phone | Showing three bar icon | Pass |
+| Clickable three bar icon | Showing the navigation menu when three bar icon is clicked | Click the three bar icon using a small device | Navigation bar showed when three bar icon was clicked | Pass |
+| Navbar links | All links works and directs to correct part of the site | Click at every link at the navigation bar | Every link was directing to the correct part of the site | Pass |
+| Responsivness navbar | The navbar remains at a readable size when device is changed | Using DevTools to easy change screen size | The navigation bar remained at a readable size when the screen size was changed | Pass |
+| Navbar design | Readable and constant design | Check the design at all pages so the design is readable and identical | The design is readable and identical at all pages | Pass |
+
+#### Index page
+
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Hero image | Image fill the pages entire width and stick at the top of the page | Check the index page at different screens through DevTools and check hhe index page at all testing devices | Hero image filled the entire page and was stuck at the top, right uelow the navbar | Pass |
+| Readable text | The text is easy readable and is seperated in different columns | The text is read at all testing devices to make sure the text is easy readable | The text is easy to read and have three different, clearly seperated, columns | Pass |
+| Responsivness | The image, text and video change size depending which screen size | Screen size changes from larger to smallest screen size in DevTools | All elements changed according to screen size | Pass |
+| Video | No autoplay, controls shows when played | Start the video | The video didn't start when the page was visited. The controls shows when the video is started | Pass |
+
+#### About page
+
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Image at correct place | The images are placed to match its content | For all screen sizes, eead through the text to make sure the image is representative | All three images is correct placed at all screen sizes | Pass |
+| Responsivness | The text and images adjust comparing to the current screen size | In DevTools and at all testing devices, control so the text and images changes according to screen size | The text and the images adjust comparing to which screen sized used | Pass |
+| Readable text | The text is readable and seperated from different columns | In DevTools, change screen size and read through the text | The text is readable and not sticking too close to any other columns | Pass |
+| Space between image and text | Space between text and images | Check different screen sizses in DevTools, making sure the space between text and images is still there | It's space between text and images | Pass |
+
+#### Get involved page
+
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+
+#### Respons page
+
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+
+#### 404 page
+
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+
+#### Footer
+
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 
 ### Bugs
 
