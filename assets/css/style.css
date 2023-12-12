@@ -108,6 +108,7 @@ main h2 {
 #info {
     width: 85%;
     margin: 12px auto;
+    display: flex;
 }
 
 #info div {
