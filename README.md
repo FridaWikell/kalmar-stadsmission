@@ -27,7 +27,7 @@ Kalmar Stadsmission is a site that hopes to get people to sign up to become a vo
     - [Index page](#index-page-1)
       - [Navigation bar](#navigation-bar)
       - [The landing page image](#the-landing-page-image)
-      - [Help us give a helping hand section](#help-us-give-a-helping-hand-section)
+      - [Help us to give a helping hand section](#help-us-to-give-a-helping-hand-section)
       - [Video](#video)
       - [Footer](#footer)
     - [About](#about)
@@ -49,7 +49,7 @@ Kalmar Stadsmission is a site that hopes to get people to sign up to become a vo
       - [Index page](#index-page-2)
       - [About page](#about-page-1)
       - [Get involved page](#get-involved-page-1)
-      - [Respons page](#respons-page)
+      - [Response page](#response-page)
       - [404 page](#404-page)
       - [Footer](#footer-1)
     - [Bugs](#bugs)
@@ -69,27 +69,27 @@ The goal for the user is to learn more about the different areas where you can v
 
 ### Site Owner Goal
 
-It's to get more applications for people who wants to be volunteers.
+It's to get more applications from people who wants to be a volunteer.
 
 ## Design
 
-The design is simple and made to help the user to focus at the text.
+The design is simple and made to help the user to focus on the content.
 
 ### Color Scheme
 
-The headers color was choosed to pop out next to a white background at the body. It was decided to have a blue/grey color to make the site feel calm and trustworthy. It was generated through coolors.co where the headers color and the fonts color were at the same color palette.
+The headers color was chosen to pop out next to a white background at the body. It was decided to have a blue/grey color to make the site feel calm and trustworthy. It was generated through [Coolors](https://coolors.co/) where the headers color and the fonts color belongs to the same color palette.
 
 ### Typography
 
-The fonts are from Google fonts where the filter was set to show only sans serif fonts. They where choosed to make the text easy to read.
+The fonts are from Google fonts where the filter was set to show only sans serif fonts. They were chosen to make the text easy to read.
 
 ### Imagery
 
-The images was choosed to visualise the text. One requirement was that they should be in color and look like they was taken out of the real world.
+The images were chosen to visualize the text. They should be in color and look like they were taken out of the real world.
 
 ### Wireframes
 
-All of the wireframes are made in Balsamiq with the idea of creating an easy structured website.
+All of the wireframes were made in Balsamiq with the idea of creating a website with an easy structure.
 
 #### Index page
 
@@ -105,7 +105,7 @@ All of the wireframes are made in Balsamiq with the idea of creating an easy str
 
 #### Other pages
 
-The wireframes to [404 page](doc/wireframe-error.webp) and [respons page](doc/wireframe-respons.webp) are located in the doc folder.
+The wireframes to the [404 page](doc/wireframe-error.webp) and the [response page](doc/wireframe-respons.webp) are located in the doc folder.
 
 ## Features
 
@@ -115,15 +115,15 @@ The wireframes to [404 page](doc/wireframe-error.webp) and [respons page](doc/wi
 
 ![Screenshot of navigation bar with logo to the left, Home - About - Get involved to the right](doc/header-image.webp)
 
-It's located in all pages, making it possible to navigate to Home, About and Get involved page at all times. The navigation bar is identical in each page, making it easy to navigate and recognize all pages.
+It's located at the top of all pages, making it possible to navigate to the Home, About and Get involved pages at all times. The navigation bar is identical in each page, making it easy to navigate and recognize all pages.
 
 #### The landing page image
 
 ![Screenshot of landing page image, two holding hands](doc/landing-page-img.webp)
 
-This image will give the user a feeling of welcome and a feeling that we care about each other at this page.
+This image will give the user a welcoming feeling and a feeling that we care about each other on this site.
 
-#### Help us give a helping hand section
+#### Help us to give a helping hand section
 
 ![Screenshot of a introduction to Kalmar Stadsmission in three columns](doc/help-us-give.webp)
 
@@ -139,7 +139,7 @@ A short video that shows some things Kalmar Stadsmission does to help the people
 
 ![Screenshot of the footer of the page with symbols of Facebook, Instagram, a cart and an envelope](doc/footer-image.webp)
 
-It's located in all pages, making it possible to navigate to Kalmar Stadsmission's pages at Facebook, Instagram and Tradera. The last icon makes it possible for the user to send a email to Kalmar Stadsmission. All links open in a new tab.
+It's located at the bottom of all pages, making it possible to navigate to Kalmar Stadsmission's pages at Facebook, Instagram and Tradera. The last icon makes it possible for the user to send an email to Kalmar Stadsmission. All links are opened in new tabs.
 
 ### About
 
@@ -161,13 +161,13 @@ The three different areas where you can volunteer is presented. It's presented w
 
 ![Screenshot of the motivational quote from a volunteer](doc/interview.webp)
 
-An eye catching image get the user to read what a volunteer has to say about beeing a volunteer.
+An eye catching image gets the user to read what a volunteer has to say about being a volunteer.
 
 #### Sign up form
 
 ![Screenshot of the sign up form](doc/form.webp)
 
-An easy understandable form where you submit your contact information to become a volunteer. You also get to choose which of the three areas you want to volunteer in. All fields are mandatory except age. It also has a submit button for sending the form and a reset button for clering the form if the user needs to start over. It is made to be easy, the user should get a feeling that it isn't hard to become a volunteer.
+An understandable form where you submit your contact information to become a volunteer. You also get to choose which of the three areas you want to volunteer in. All fields are mandatory except age. It also has a submit button for sending the form and a reset button for clearing the form if the user needs to start over. It is made to be easy, the user should get a feeling that it isn't hard to become a volunteer.
 
 ## Features to be Added
 
@@ -181,11 +181,11 @@ All HTML pages are validated without errors in the [W3 Markup Validation Service
 
 ![Screenshot of valid HTML code](doc/html-index.webp)
 
-To see the validation at the other pages, you find them in the doc folder.
+To see the validation for the other pages, you find them in the doc folder.
 
 - [About page](doc/html-about.webp)
 - [Get involved page](doc/html-get-involved.webp)
-- [Respons page](doc/html-respons.webp)
+- [Response page](doc/html-respons.webp)
 - [404 page](doc/html-404.webp)
 
 ![Screenshot of valid CCS code](doc/css-valid-report.webp)
@@ -194,7 +194,7 @@ The CSS page are validated without errors in the [W3 CSS Validation Service.](ht
 
 ### Lighthouse
 
-The website is tested in Lighthouse, both for mobile and desktop.
+The website is tested in Lighthouse, for both mobile and desktop.
 
 #### Mobile
 
@@ -208,11 +208,11 @@ For mobile devices, the performance is 94. The low score is mainly due to the vi
 
 For desktop, the performance and accessibility are 100.
 
-To see the validation at the other pages, you find them in the doc folder.
+To see the test for the other pages, you find them in the doc folder.
 
 - [About page](doc/LH-Desktop-about.webp)
 - [Get involved page](doc/LH-Desktop-get-involved.webp)
-- [Respons page](doc/LH-Desktop-respons.webp)
+- [Response page](doc/LH-Desktop-respons.webp)
 
 ### Wave Webaim - accessibility testing
 
@@ -220,22 +220,22 @@ To see the validation at the other pages, you find them in the doc folder.
 
 The test at Wave Webaim gave a result without errors.
 
-To see the validation at the other pages, you find them in the doc folder.
+To see the test results for the other pages, you find them in the doc folder.
 
 - [About page](doc/wave-about.webp)
 - [Get involved page](doc/wave-get-involved.webp)
-- [Respons page](doc/wave-respons.webp)
+- [Response page](doc/wave-respons.webp)
 - [404 page](doc/wave-404.webp)
 
 ### Contrast Grid
 
 ![Screenshot of the contrast grid](doc/contrast-grid.webp)
 
-The test at [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%237a9ea5%2C%20Background%20color%2C%20header%2Ffooter%0D%0A%2304050a%2C%20Font%20color%0D%0A%23e4e5eb%2C%20Form%20background%2C%20focus%0D%0A%23ceebf1%2C%20Background%20color%2C%20button%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) resulted in only AAA values in the combination used at the site.
+The test at [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%237a9ea5%2C%20Background%20color%2C%20header%2Ffooter%0D%0A%2304050a%2C%20Font%20color%0D%0A%23e4e5eb%2C%20Form%20background%2C%20focus%0D%0A%23ceebf1%2C%20Background%20color%2C%20button%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) resulted in only AAA values in the combinations used at the site.
 
 ### Manual Testing
 
-Every page at the website has been manually tested. It has been done in Google Chrome DevTools and on different devices.
+Every page at the website has been manually tested. It is done in Google Chrome DevTools and on different devices.
 The devices used was one mobile phone, one laptop and one external screen:
 
 - Samsung Galaxy A52s (1080 x 2400)
@@ -248,28 +248,28 @@ The devices used was one mobile phone, one laptop and one external screen:
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Navbar | Get stuck at the top when scrolling  | Scrolling the entire page, from top to bottom | Navbar is sticking at the top at the site | Pass |
 | Navbar three bar icon | On small devices, being a three bar icon | Choosing a small device in DevTools and visit the site in a cell phone | Showing three bar icon | Pass |
-| Clickable three bar icon | Showing the navigation menu when three bar icon is clicked | Click the three bar icon using a small device | Navigation bar showed when three bar icon was clicked | Pass |
-| Navbar links | All links works and directs to correct part of the site | Click at every link at the navigation bar | Every link was directing to the correct part of the site | Pass |
+| Clickable three bar icon | Showing the navigation menu when the three bar icon is clicked | Clicking the three bar icon using a small device | Navigation bar showed when three bar icon was clicked | Pass |
+| Navbar links | All links works and directs to the correct part of the site | Clicking at every link at the navigation bar | Every link was directing to the correct part of the site | Pass |
 | Responsivness navbar | The navbar remains at a readable size when device is changed | Using DevTools to easy change screen size | The navigation bar remained at a readable size when the screen size was changed | Pass |
-| Navbar design | Readable and constant design | Check the design at all pages so the design is readable and identical | The design is readable and identical at all pages | Pass |
+| Navbar design | Readable and constant design | Checking the design at all pages so the design is readable and identical | The design is readable and identical at all pages | Pass |
 
 #### Index page
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Hero image | Image fill the pages entire width and stick at the top of the page | Check the index page at different screens through DevTools and check hhe index page at all testing devices | Hero image filled the entire page and was stuck at the top, right uelow the navbar | Pass |
-| Readable text | The text is easy readable and is seperated in different columns | The text is read at all testing devices to make sure the text is easy readable | The text is easy to read and have three different, clearly seperated, columns | Pass |
-| Responsivness | The image, text and video change size depending which screen size | Screen size changes from larger to smallest screen size in DevTools | All elements changed according to screen size | Pass |
-| Video | No autoplay, controls shows when played | Start the video | The video didn't start when the page was visited. The controls shows when the video is started | Pass |
+| Hero image | The image fills the entire width and sticks at the top of the page | Check the index page at different screens through DevTools and check the index page at all testing devices | Hero image filled the entire width of the page and was stuck at the top, right below the navbar | Pass |
+| Readable text | The text is easy to read and is separated in different columns | The text is read at all testing devices to make sure the text is easy to read | The text is easy to read and have three different, clearly separated, columns | Pass |
+| Responsivness | The image, text and video change size depending on screen size | Changing screen size from the largest to the smallest in DevTools | All elements changed in the expected way according to screen size | Pass |
+| Video | No autoplay, controls shows when the video plays | Start the video | The video didn't start when the page was visited. The controls shows when the video is started | Pass |
 
 #### About page
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Image at correct place | The images are placed to match its content | For all screen sizes, eead through the text to make sure the image is representative | All three images is correct placed at all screen sizes | Pass |
-| Responsivness | The text and images adjust comparing to the current screen size | In DevTools and at all testing devices, control so the text and images changes according to screen size | The text and the images adjust comparing to which screen sized used | Pass |
-| Readable text | The text is readable and seperated from different columns | In DevTools, change screen size and read through the text | The text is readable and not sticking too close to any other columns | Pass |
-| Space between image and text | Space between text and images | Check different screen sizses in DevTools, making sure the space between text and images is still there | It's space between text and images | Pass |
+| Image at correct place | The images are placed to match its content | For all screen sizes, read through the text to make sure the image is representative | All three images is correctly placed at all screen sizes | Pass |
+| Responsivness | The text and images adjust according to the current screen size | In DevTools and at all testing devices, control that the text and images changes according to screen size | The text and the images adjust according to the screen size used | Pass |
+| Readable text | The text is readable and separated into different columns | In DevTools, change screen size and read through the text | The text is readable and not sticking too close to any other columns | Pass |
+| Space between image and text | Space between text and images | Check different screen sizes in DevTools, making sure the space between text and images is still there | It's space between text and images | Pass |
 
 #### Get involved page
 
@@ -279,11 +279,11 @@ The devices used was one mobile phone, one laptop and one external screen:
 | Matching text and image | Image and text matches | Look at the image and read through the text | The text is a quote from a woman, 36 years old, which the woman at the image could be | Pass |
 | Easy form | An easy understandable form | Try to fill the form in both a testing computer and testing mobile device | All fields were easy to fill and understand what was supposed to be filled in each field | Pass |
 | Required fields in form | Not being able to send the form if one of the required fields aren't filled | Try to leave one field empty and try to send the form and repeat for every field | The form wasn't able to send if one (or more) of the required fields were empty | Pass |
-| Send button | Direct the user to the respons page | Fill the form and press Send | The Send button directed the user to the respons page | Pass |
+| Send button | Direct the user to the response page | Fill the form and press Send | The Send button directed the user to the response page | Pass |
 | Clear button | Clear the form | Fill the form and press Clear | The form was cleared | Pass |
-| Responsivness | All elements change size depending on which screen size used | On all test devices and with the help from DevTools, the page was visited and checked that all elements was readable and not floating on to each other | Pass |
+| Responsivness | All elements change size depending on which screen size used | Check the responsivness from the smallest screen to the largest in DevTools | On all test devices and with the help from DevTools, the page was visited and checked that all elements was readable and not floating on to each other | Pass |
 
-#### Respons page
+#### Response page
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
@@ -295,7 +295,7 @@ The devices used was one mobile phone, one laptop and one external screen:
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsivness | The text and image change size depending on screen size | In DevTools and testing devices, change screen sizes | The image and all text change´d size depending on screen size | Pass |
+| Responsivness | The text and image change size depending on screen size | In DevTools and testing devices, change screen sizes | The image and all text changed size depending on screen size | Pass |
 | Home page button | Direct the user to home page | Click at the button on the testing devices (computer and mobile) | The user was sent to the home page | Pass |
 
 #### Footer
@@ -339,7 +339,7 @@ Link to the website: <https://fridawikell.github.io/kalmar-stadsmission/>
 
 ### Images
 
-Images at respons page and 404 page are free images from [Pixabay.](https://pixabay.com/)
+Images at response page and 404 page are free images from [Pixabay.](https://pixabay.com/)
 Images at index page, about page and get involved page are from [Pexels.](https://www.pexels.com/)
 
 The images has been converted to .webp with [Convertio](https://convertio.co/) and [Cloudconvert.](https://cloudconvert.com/)
