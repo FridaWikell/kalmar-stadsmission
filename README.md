@@ -203,9 +203,11 @@ For desktop, the performance is 99 and accessibility 100.
 
 ### Wave Webaim - accessibility testing
 
+![Screenshot of index page at Wave](doc/wave.webp)
+
 The test at Wave Webaim gave a result without errors.
 
-FIX AND INSERT SCREENSHOT!
+To see the other 
 
 ### Contrast Grid
 
