@@ -125,7 +125,7 @@ This image will give the user a welcoming feeling and a feeling that we care abo
 
 #### Help us to give a helping hand section
 
-![Screenshot of a introduction to Kalmar Stadsmission in three columns](doc/help-us-give.webp)
+![Screenshot of a introduction to Kalmar Stadsmission in three columns](doc/help-us-to.webp)
 
 It's a short introduction to Kalmar Stadsmission and what they do. It also briefly covers how you can be involved in Kalmar Stadsmission.
 
@@ -145,13 +145,13 @@ It's located at the bottom of all pages, making it possible to navigate to Kalma
 
 #### How can you help introduction
 
-![Screenshot of the introduction to how you can help](doc/how-can-you.webp)
+![Screenshot of the introduction to how you can help](doc/how-can-you-help.webp)
 
 This is a short introduction that is supposed to be motivating to sign up.
 
 #### The three different areas
 
-![Screenshot of the three different areas you can volunteer in](doc/three-about.webp)
+![Screenshot of the three different areas you can volunteer in](doc/three-different.webp)
 
 The three different areas where you can volunteer is presented. It's presented with a short text and an image that represent the area. This is to help the user to decide which area they want to volunteer in.
 
@@ -159,7 +159,7 @@ The three different areas where you can volunteer is presented. It's presented w
 
 #### Quote from a volunteer
 
-![Screenshot of the motivational quote from a volunteer](doc/interview.webp)
+![Screenshot of the motivational quote from a volunteer](doc/quote.webp)
 
 An eye catching image gets the user to read what a volunteer has to say about being a volunteer.
 
@@ -198,15 +198,21 @@ The website is tested in Lighthouse, for both mobile and desktop.
 
 #### Mobile
 
-![Screenshot of test made in Lighthouse - for mobile devices](doc/index-mobile.webp)
+![Screenshot of test made in Lighthouse - for mobile devices](doc/mobile-index.webp)
 
-For mobile devices, the performance is 94. The low score is mainly due to the video at the first page. At the moment, the developer doesn't have the skill to fix it due to lack of knowledge. The accessibility is 100.
+For mobile devices, the performance is 97 at the accessibility 100 at the index page.
+
+To see the test for the other pages, you find them in the doc folder.
+
+- [About page](doc/mobile-about.webp)
+- [Get involved page](doc/mobile-get.webp)
+- [Response page](doc/mobile-respons.webp)
 
 #### Desktop
 
 ![Screenshot of test made in Lighthouse - for desktop devices](doc/LH-Desktop-index.webp)
 
-For desktop, the performance and accessibility are 100.
+For desktop, the performance and accessibility are 100 at the index page.
 
 To see the test for the other pages, you find them in the doc folder.
 
@@ -357,6 +363,7 @@ To limit the sites width on large screens, clamp code was used from [Raybo.](htt
 
 The favicon is from [Favicon](https://favicon.io/emoji-favicons/red-heart) with license [CC BY 4.0 DEED.](https://creativecommons.org/licenses/by/4.0/)
 The symbols in the footer and the hamburger icon in the navigation menu (when a small device is used) are from [Fontawesome.](https://fontawesome.com/)
+To generate the color palette, [Coolors](https://coolors.co/) was used.
 
 ## Acknowledgements
 
