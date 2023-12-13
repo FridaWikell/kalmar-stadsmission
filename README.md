@@ -252,9 +252,9 @@ The devices used was one mobile phone, one laptop and one external screen:
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Navbar | Get stuck at the top when scrolling  | Scrolling the entire page, from top to bottom | Navbar is sticking at the top at the site | Pass |
-| Navbar three bar icon | On small devices, being a three bar icon | Choosing a small device in DevTools and visit the site in a cell phone | Showing three bar icon | Pass |
-| Clickable three bar icon | Showing the navigation menu when the three bar icon is clicked | Clicking the three bar icon using a small device | Navigation bar showed when three bar icon was clicked | Pass |
+| Navbar | Get stuck at the top when scrolling  | Scrolling the entire page, from top to bottom | Navbar is sticking at the top at the site | :white_check_mark: |
+| Navbar three bar icon | On small devices, being a three bar icon | Choosing a small device in DevTools and visit the site in a cell phone | Showing three bar icon | Pass :white_check_mark: |
+| Clickable three bar icon | Showing the navigation menu when the three bar icon is clicked | Clicking the three bar icon using a small device | Navigation bar showed when three bar icon was clicked | Pass :heavy_check_mark: |
 | Navbar links | All links works and directs to the correct part of the site | Clicking at every link at the navigation bar | Every link was directing to the correct part of the site | Pass |
 | Responsivness navbar | The navbar remains at a readable size when device is changed | Using DevTools to easy change screen size | The navigation bar remained at a readable size when the screen size was changed | Pass |
 | Navbar design | Readable and constant design | Checking the design at all pages so the design is readable and identical | The design is readable and identical at all pages | Pass |
