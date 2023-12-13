@@ -1,6 +1,6 @@
 # Kalmar Stadsmission
 
-![image of site](doc/index-responsive.webp)
+![image of site](doc/responsive-index.webp)
 
 ## Introduction
 
