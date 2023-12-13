@@ -281,28 +281,28 @@ The devices used was one mobile phone, one laptop and one external screen:
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Readable text | The text is easy readable | In different screen sizes in DevTools, read through all text | The text was easy to read thanks to space around and good contrast between text and background | Pass |
-| Matching text and image | Image and text matches | Look at the image and read through the text | The text is a quote from a woman, 36 years old, which the woman at the image could be | Pass |
-| Easy form | An easy understandable form | Try to fill the form in both a testing computer and testing mobile device | All fields were easy to fill and understand what was supposed to be filled in each field | Pass |
-| Required fields in form | Not being able to send the form if one of the required fields aren't filled | Try to leave one field empty and try to send the form and repeat for every field | The form wasn't able to send if one (or more) of the required fields were empty | Pass |
-| Send button | Direct the user to the response page | Fill the form and press Send | The Send button directed the user to the response page | Pass |
+| Readable text | The text is easy to read | Read through all the text in different screen sizes in DevTools | The text was easy to read due to space around the text and good contrast between text and background | Pass |
+| Matching text and image | Image and text matches | Look at the image and read through the text | The text is a quote from a 36 year old woman, therefore it matches the woman at the image | Pass |
+| Easy form | An easily understandable form | Try to fill in the form | All fields were easy to fill in and it was easy to understand what was supposed to be written in each field | Pass |
+| Required fields in form | Not being able to send the form if one (or more) of the required fields aren't filled in | Try to leave one field empty and try to send the form, repeat for every field | The form wasn't possible to send if one (or more) of the required fields were empty | Pass |
+| Send button | Direct the user to the response page | Fill in the form and press Send | The Send button directed the user to the response page | Pass |
 | Clear button | Clear the form | Fill the form and press Clear | The form was cleared | Pass |
-| Responsivness | All elements change size depending on which screen size used | Check the responsivness from the smallest screen to the largest in DevTools | On all test devices and with the help from DevTools, the page was visited and checked that all elements was readable and not floating on to each other | Pass |
+| Responsivness | All elements change size depending on which screen size used | Check the responsivness from the smallest screen to the largest in DevTools | The page was controlled so all elements were readable and not floating in to each other | Pass |
 
 #### Response page
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Responsivness | The text and image changes depending on screen size | In DevTools, change screen size from smallest to largest | The text and image changes size depending on which screen size used | Pass |
-| Mail address | Correct mail address which opens the email client when clicked at | Click at the email address | On both testing computer and testing mobile device the email address was clicked at and opened the email client with an empty mail addressed to correct email address | Pass |
-| Home page button | Direct the user to home page | Click at the button on the testing devices (computer and mobile) | The user was sent to the home page | Pass |
+| Email address | When the email address is clicked on, the email client opens and the correct email address is prefilled | Click at the email address | The email address was clicked on and it opened the email client with an empty mail addressed to correct email address | Pass |
+| Home page button | Direct the user to home page | Click at the button | The user was sent to the home page | Pass |
 
 #### 404 page
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsivness | The text and image change size depending on screen size | In DevTools and testing devices, change screen sizes | The image and all text changed size depending on screen size | Pass |
-| Home page button | Direct the user to home page | Click at the button on the testing devices (computer and mobile) | The user was sent to the home page | Pass |
+| Responsivness | The text and image change size depending on screen size | In DevTools and testing devices, change screen size | The image and all text changed size depending on screen size | Pass |
+| Home page button | Direct the user to home page | Click at the button | The user was sent to the home page | Pass |
 
 #### Footer
 
@@ -311,23 +311,23 @@ The devices used was one mobile phone, one laptop and one external screen:
 | Links | All links direct the user to the correct site in a new tab | Click at all links | All links sent the user to the correct site, all links opened in a new tab | Pass |
 | Icons | The icons matches the links | Compare the linked site and the icon | The icons matched the linked site | Pass |
 | Placement | Always at the bottom of the screen | In DevTools, from small to large screens, check that footer always is at the bottom of the screen | At all screen sizes, the footer was located at the bottom of the screen | Pass |
-| Responsivness | The icons spreads out when the screen size gets bigger | Check the icons in the footer in DevTools from small to large screens | The icons spreads out when the screen is getting bigger | Pass |
+| Responsivness | The icons spread out when the screen size gets bigger | Check the icons in the footer in DevTools from small to large screens | The icons spread out when the screen is getting bigger | Pass |
 
 ### Bugs
 
 During the testing some bugs were found.
 
-When the HTML validation was done the first time, it was an error which said anchor tags weren't supposed to be in button tags. It was changed by changing the code to another solution. It didn't get any errors at the next validation. This code was changed once again to make the code easier and more accesible for screen readers.
+When the HTML validation was done the first time, an error occured. The error was that anchor tags weren't supposed to be in button tags. It was changed by changing the code to another solution. There weren't any errors at the next validation. This code was changed once again to make the code easier and more accessible for screen readers.
 
-When the site was tested in Lighthouse, it gave some improvment tips in making the image files smaller to make the loading speed faster. It was made for the image at Get involved page. The hero image at the index page were cropped to make the loading faster.
+When the site was tested in Lighthouse, it resulted in some improvment tips. One was to make the image files smaller to shorten the loading time. It was made for the image at Get involved page. The hero image at the index page were cropped to make the loading faster.
 
-When the accessibility testing was made in Wave Webaim, one error occured. It was "Empty form label" in the nav bar. It was corrected by adding a Toggle menu text which was made to be hidden, but able to be read by screen readers.
+When the accessibility testing was made in Wave Webaim, one error occured. It was "Empty form label" in the nav bar. It was corrected by adding a Toggle menu text which was made to be hidden, only readable by screen readers.
 
 During the contrast test one value was changed to increase the readability. The header and footer originally had #648C94 as background color and #04050A as font color. This combination gave a score of 5.5, equal AA. The background color was changed to #7A9Ea5 which gave a score at 7, equal AAA.
 
 ## Technologies Used
 
-For the site, HTML and CSS has been used.
+For the site, HTML and CSS have been used.
 It has been based on a GitHub repository and developed in Codeanywhere.
 The wireframes has been done in Balsamiq.
 
@@ -348,16 +348,16 @@ Link to the website: <https://fridawikell.github.io/kalmar-stadsmission/>
 Images at response page and 404 page are free images from [Pixabay.](https://pixabay.com/)
 Images at index page, about page and get involved page are from [Pexels.](https://www.pexels.com/)
 
-The images has been converted to .webp with [Convertio](https://convertio.co/) and [Cloudconvert.](https://cloudconvert.com/)
+The images have been converted to webp with [Convertio](https://convertio.co/) and [Cloudconvert.](https://cloudconvert.com/)
 [TinyPNG](https://tinypng.com/) has been used to compress the images.
 
 ### Code
 
-The code to embed the Youtube-video is from [Avexdesigns.](https://www.avexdesigns.com/blog/responsive-youtube-embed/)
+The code to embed the Youtube video is from [Avexdesigns.](https://www.avexdesigns.com/blog/responsive-youtube-embed/)
 For making the navigation bar responsive, the code is from Code Institue's Love running project.
 To hide Toggle menu, the code is from [CSS Tricks.](https://css-tricks.com/inclusively-hidden/)
-Button code to make "Back to home page" button is from [Stackoverflow.](https://stackoverflow.com/questions/8357058/how-to-make-an-html-anchor-tag-or-link-look-like-a-button)
-To limit the sites width on large screens, clamp code was used from [Raybo.](https://raybo.org/posts/2021-02-28-CSS%20Clamp/)
+Button code to make Back to home page button is from [Stackoverflow.](https://stackoverflow.com/questions/8357058/how-to-make-an-html-anchor-tag-or-link-look-like-a-button)
+To limit the sites' width on large screens, clamp code was used from [Raybo.](https://raybo.org/posts/2021-02-28-CSS%20Clamp/)
 
 ### Other
 
