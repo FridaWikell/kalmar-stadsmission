@@ -354,8 +354,8 @@ footer {
 }
 
 /* Media query */
-/* Small devices and larger (425px and larger */
-@media screen and (min-width: 425px) {
+/* Small devices and larger (388px and larger */
+@media screen and (min-width: 388px) {
     main {
         margin-top: 93px;
     }

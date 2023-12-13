@@ -200,7 +200,7 @@ The website is tested in Lighthouse, for both mobile and desktop.
 
 ![Screenshot of test made in Lighthouse - for mobile devices](doc/mobile-index.webp)
 
-For mobile devices, the performance is 97 at the accessibility 100 at the index page.
+For mobile devices, the performance is 97 and the accessibility is 100 at the index page.
 
 To see the test for the other pages, you find them in the doc folder.
 
